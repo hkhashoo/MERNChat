@@ -42,7 +42,7 @@ class App extends React.Component {
 					</Route>
 					
 					<Route exact path = "/chat">
-						<Chat/>
+						<Chat userName = {this.state.userName} loggedIn = {this.state.loggedIn}/>
 					</Route>
 					
 					<Route exact path = '/login'>
