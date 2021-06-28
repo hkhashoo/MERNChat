@@ -20,7 +20,7 @@ class Account extends React.Component{
 			{
 				(this.props.userdata.loggedIn)?
 				<div className = "container">
-					<div className = "card p-4 border-light bg-dark text-light">
+					<div className = "card p-4 border-secondary bg-dark text-light">
 						<h3 className = "card-title">My Account</h3>
 						<hr className = "bg-dark"></hr>
 					<div className ="card-body">
